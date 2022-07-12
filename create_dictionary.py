@@ -7,12 +7,9 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    i = 1
-    num = {}
-    while i < len(key):
-        for e in value:
-            num[i] = e
-        i += 1
+    x = {}
+    for i in range(len(key)):
+        x[key[i]] = value[i]
         
-    return num
-print(create_dictionary())
+    return x
+print(create_dictionary([1, 2, 3],["one", "two", "three"]))
