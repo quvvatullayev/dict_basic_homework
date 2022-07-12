@@ -7,4 +7,12 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    i = 1
+    num = {}
+    while i < len(key):
+        for e in value:
+            num[i] = e
+        
+        
+    return num
+print(create_dictionary())
