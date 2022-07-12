@@ -12,7 +12,7 @@ def create_dictionary(key, value):
     while i < len(key):
         for e in value:
             num[i] = e
-        
+        i += 1
         
     return num
 print(create_dictionary())
