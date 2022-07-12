@@ -14,7 +14,6 @@ def oldest(people:dict):
     young = people.values()
     max_young = max(young)
     index_name = list(young).index(max_young)
-    print(name[index_name])
-
-    return ""
+ 
+    return name[index_name]
 print(oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}))
